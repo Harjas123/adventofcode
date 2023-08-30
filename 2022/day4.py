@@ -14,8 +14,6 @@ with open('2022/input/day4.txt') as file:
             overlap += 1
         elif sections[0] in range2 or sections[2] in range1:
             overlap += 1
-        
-        
 
 print(full_overlap)
 print(overlap)
