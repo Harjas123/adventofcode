@@ -2,7 +2,7 @@
 replace = {"A":1, "B":2, "C":3}
 
 myscore = 0
-with open('input/day2.txt', "r") as file:
+with open('2022/input/day2.txt', "r") as file:
     for line in file:
         round = line.split()
         round[0] = replace[round[0]]
