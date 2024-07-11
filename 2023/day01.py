@@ -76,3 +76,5 @@ with open('2023/input/day01.txt', "r") as file:
         sum2 += int(num1 + num2)
     print(sum1)
     print(sum2)
+
+# some comment
